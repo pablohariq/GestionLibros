@@ -1,5 +1,5 @@
 import React from "react";
-import {Navlink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -7,12 +7,12 @@ const Header = () => {
             <h1>Aplicación de Gestión de Libros</h1>
             <hr />
             <div className="links">
-                <Navlink to="/" className="link" activeClassName="active" exact>
+                <NavLink to="/" className="link" activeClassName="active" exact>
                     Lista de Libros
-                </Navlink>
-                <Navlink to="/add" className="link" activeClassName="active">
+                </NavLink>
+                <NavLink to="/add" className="link" activeClassName="active">
                     Añade Libro
-                </Navlink>
+                </NavLink>
             </div>
         </header>
     );
